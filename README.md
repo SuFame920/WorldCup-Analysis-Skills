@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚽ World-Cup-Analysis Skill
+# ⚽ WorldCup-Analysis Skill
 
 **给你的 AI 装上"资深足球分析师的大脑"——用因果推理 + 实时联网,做可解释的世界杯赛事预测**
 
