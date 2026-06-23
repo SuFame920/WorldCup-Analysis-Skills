@@ -1,5 +1,5 @@
 ---
-name: world-cup-analysis
+name: worldcup-analysis-skill
 description: >-
   Analyze and predict a specific football match — especially 2026 FIFA World Cup
   fixtures — and produce an explainable forecast: an overall read plus 胜平负 (1X2),
