@@ -152,6 +152,13 @@ Run the funnel in this order; each stage has a reference file.
 - **Use current sources only.** The data landscape shifts (e.g., FBref is historical-only
   since it lost its Opta licence in Jan 2026). Use the vetted, tiered list in
   `references/sources.md`, and prefer primary/live sources for anything time-sensitive.
+- **Degraded mode (retrieval down / line unmissable).** If live search is unavailable or a line
+  genuinely can't be found, do NOT fabricate and do NOT silently predict as if data-backed.
+  Switch to a **labeled qualitative read**: widen ranges, **lower every confidence ceiling**
+  (totals ≤~40 / 半全场 ≤~35), **skip or heavily caveat line-dependent markets** (让球 / 大小球),
+  and **flag exactly which inputs are missing** (group standings/motivation, lineups, lines) since
+  those are the swing factors you're now blind to. Offer to re-run when tools recover. (Seen
+  2026-06-23: a Portugal session had retrieval down — name the failure mode, don't guess past it.)
 
 ## Output contract (summary — full template in `references/output-format.md`)
 

@@ -58,3 +58,11 @@ Scoring needs the **probability you assigned**, not only the chosen outcome. Rec
 
 A simple append-only table (CSV/Markdown) is enough. The discipline — logging probabilities
 every time and scoring honestly — matters far more than the tooling.
+
+**Rolling aggregate (where the cross-match signal actually lives).** Keep a per-market rolling
+scoreboard — hit-rate + mean Brier across all settled records — at the top of
+`memory/calibration-summary.md` (📊 跨场聚合记分板), and refresh it whenever a batch settles. This
+is the concrete form of "did my adjustments add signal": if a market's hit-rate/Brier isn't
+improving as corrections accumulate, that correction is noise → down-weight it. (As of
+2026-06-23, 12 matches: 1X2 9/12 strong; 比分 / 大小 / 半全 each ~5/12 — the high-variance markets
+are the standing weak spot.)
