@@ -95,6 +95,10 @@ Run the funnel in this order; each stage has a reference file.
    reflection (score + channel-attributed diagnosis), mark it settled. Load the settled
    reflections **and `memory/calibration-summary.md`'s standing corrections** as **Channel H**
    (see double-counting rules). → `references/memory-protocol.md`.
+   **Also load `memory/standings-tracker.md`** for current group standings, qualified teams,
+   and the confirmed/projected Round of 32 bracket — use this as authoritative tournament
+   context (group position, remaining stakes, qualification status) rather than re-deriving
+   from scratch. Update it whenever standings or bracket slots change.
 3. **召回 Recall (parallel, multi-channel).** Pull every channel into typed evidence
    records. → `references/recall-channels.md`, schema in `references/evidence-schema.md`.
    The channels are independent and parallelizable; treat each as its own retrieval job.

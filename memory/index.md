@@ -20,6 +20,12 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-23 | england / ghana | WC2026 GL (MD2) | settled | England 76% | 0–0 | 爆冷命中(22%) / 1X2✗ 让球✗ 比分✗ 大小✗ 半全✗ | 自评爆冷≥20%且有具体闷杀机制时,1X2/比分/totals必须对冲(留平/留小),别只写备注 | records/2026-06-23_england_vs_ghana.md |
 | 2026-06-23 | panama / croatia | WC2026 GL (MD2) | settled | Croatia 62% | 0–1 (HT 0–0) | 1X2✓ 比分✓(1-0次桶) 大小✓(小) 半全✓(平负) / 让球push | 数据+弱攻对手+押小=最佳工况;净胜1走盘预警精准;但"我方控场"剧本写反(巴控球更多) | records/2026-06-23_panama_vs_croatia.md |
 | 2026-06-23 | colombia / dr_congo | WC2026 GK (MD2) | settled | Colombia 60% | 1–0 (HT 0–0) | **5/5 满堂红**(1X2✓ 让球✓-push押对 比分✓1-0 大小✓小 半全✓平胜) | 绞杀铁桶archetype按设计奏效;与Por 5-0同型两极=对手防线质量+终结者决定走向 | records/2026-06-23_colombia_vs_dr_congo.md |
+| 2026-06-24 | brazil / scotland | WC2026 GC (MD3) | settled | Brazil 78% | 3–0 (HT 2–0) | 1X2✓ 半全✓(次桶) / 让球✗ 比分✗ 大小✗ | Vini Jr级终结点7'破局→场景②"半场闷"预设被推翻;Raphinha缺席≠巴西进攻降级;比分封顶过低(2-0vs实3-0) | records/2026-06-24_scotland_vs_brazil.md |
+| 2026-06-24 | bosnia / qatar | WC2026 GB (MD3) | settled | Bosnia 65% / 平 35% | 3–1 (HT 2–1) | 1X2✅ 让球✅(次桶) 半全✅(次桶) / 比分❌(3-1缺) 大小❌ | 场景③归属正确但比分桶仍保守;卡塔尔残防→应上探3-1;波黑年轻化被低估 | records/2026-06-24_bosnia_vs_qatar.md |
+| 2026-06-24 | czech_republic / mexico | WC2026 GA (MD3) | settled | 墨西哥不败(双选) | 3–0 (HT 0–0) | 1X2✅ 半全✅(平负主桶) / 让球❌ 比分❌ 大小❌ | **"轮换≠弱化"**→板凳饥渴反超先发;战意不对等≠弱队有得分价值——此批最贵一课 | records/2026-06-24_czech_republic_vs_mexico.md |
+| 2026-06-24 | morocco / haiti | WC2026 GC (MD3) | settled | Morocco 82% | 4–2 (HT 2–2) | 1X2✅ 让球✅(次桶/push) 半全✅(主桶) / 比分❌ 大小❌ | "已淘汰=无威胁"是危险假设;Haiti无压力爆发双球+世界波→totals仅靠"弱攻"推Under脆弱 | records/2026-06-24_morocco_vs_haiti.md |
+| 2026-06-24 | switzerland / canada | WC2026 GB (MD3) | settled | 瑞士不败(双选) | 2–1 (HT 0–0) | **1X2✅ 让球✅(次桶/push) 比分✅(2-1!) 半全✅(平胜主桶)** / 大小❌ | BTTS+让平+平胜=均势双出线局"甜点模态";Manzambi精英级变速器;比分量身定做 | records/2026-06-24_switzerland_vs_canada.md |
+| 2026-06-24 | south_africa / south_korea | WC2026 GA (MD3) | settled | South Korea 65% | 0–1 (HT 0–0) | 大小✅(1球) / 1X2❌ 让球❌ 比分❌ 半全❌ | **"非洲魔咒"不是次要脚注**(韩对非洲5场全丢球);核心球员停赛信息误判→方向全错;Under直觉对但方向反 | records/2026-06-24_south_africa_vs_south_korea.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
@@ -30,6 +36,9 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 
 > **跨场总结(MD2, 2026-06-23,4 场已结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 3。
 > 1X2 **3/4**(England 0-0 爆冷)、让球 Por赢盘✓+Col押push✓/Cro push/Eng✗、大小 **2/4**、比分 **2/4**、半全 **2/4**。**最佳卡=哥伦比亚 5/5(让球直接押 push 命中)+ 克罗地亚 4/5+push。** 两大 miss(Por 5-0、Eng 0-0)主因 **finishing variance vs xG**。两条真·流程缺陷:**① England 机理对却全压热门(没对冲);② Portugal #2 封顶太低 + archetype 误套。** **Por vs Col 同型两极**(见 v3 #10):有数据+真铁桶弱攻对手时近乎满堂红,模型工况最佳。
+
+> **跨场总结(MD3, 2026-06-24,6 场已全部结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 4。
+> **1X2 5/6**(仅South Korea 0-1爆冷错)、**让球 3/6+3 push**(push认知稳但Mex/Czech让球完全错向)、**大小 1/6**(本次最弱项!仅SA-KOR 1球命中)、**比分 3/6**(Sui 2-1精确!但Mor/Bra/Bos上限仍被低估)、**半全 5/6**(最佳项!平胜/胜胜/平负各命中)。**最佳卡=瑞士 2-1近乎满分(让平push+比分+半全+1X2);最差卡=南非-韩国(信息失误→全错向)。** 三条核心教训:①"轮换=弱化"假设被推翻(板凳饥渴);②"已淘汰=无威胁"假设被推翻;③核心球员信息的准确性是硬地基(F渠道)。
 
 <!--
 Append rows like:
