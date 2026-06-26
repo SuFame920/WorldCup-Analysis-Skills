@@ -24,36 +24,40 @@
     <text x="50" y="254">0%</text>
   </g>
 
-  <!-- x day labels (shifted 1 day right: 06-18 to 06-24) -->
+  <!-- x day labels: 06-19 → 06-25 -->
   <g font-size="11" fill="#9ca3af" text-anchor="middle">
-    <text x="60"  y="270">06-18</text>
-    <text x="166.7" y="270">06-19</text>
-    <text x="273.3" y="270">06-20</text>
-    <text x="380" y="270">06-21</text>
-    <text x="486.7" y="270">06-22</text>
-    <text x="593.3" y="270">06-23</text>
-    <text x="700" y="270">06-24</text>
+    <text x="60"   y="270">06-19</text>
+    <text x="166.7" y="270">06-20</text>
+    <text x="273.3" y="270">06-21</text>
+    <text x="380"   y="270">06-22</text>
+    <text x="486.7" y="270">06-23</text>
+    <text x="593.3" y="270">06-24</text>
+    <text x="700"   y="270">06-25</text>
   </g>
 
-  <!-- 逐档 line: 06-21 24% / 06-22 47% / 06-23 35% / 06-24 28% -->
-  <polyline points="380,202 486.7,156 593.3,180 700,194" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
-  <circle cx="380" cy="202" r="4" fill="#f59e0b"/>
-  <circle cx="486.7" cy="156" r="4" fill="#f59e0b"/>
-  <circle cx="593.3" cy="180" r="4" fill="#f59e0b"/>
-  <circle cx="700" cy="194" r="4" fill="#f59e0b"/>
-  <text x="380" y="216" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">24%</text>
-  <text x="486.7" y="170" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">47%</text>
-  <text x="593.3" y="194" font-size="11" font-weight="600" fill="#b45309" text-anchor="end">35%</text>
-  <text x="700" y="208" font-size="11" font-weight="600" fill="#b45309" text-anchor="end">28%</text>
+  <!-- 逐档 line: 06-21 24% / 06-22 47% / 06-23 35% / 06-24 28% / 06-25 32% -->
+  <polyline points="273.3,202 380,156 486.7,180 593.3,194 700,186" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+  <circle cx="273.3" cy="202" r="4" fill="#f59e0b"/>
+  <circle cx="380"   cy="156" r="4" fill="#f59e0b"/>
+  <circle cx="486.7" cy="180" r="4" fill="#f59e0b"/>
+  <circle cx="593.3" cy="194" r="4" fill="#f59e0b"/>
+  <circle cx="700"   cy="186" r="4" fill="#f59e0b"/>
+  <text x="273.3" y="216" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">24%</text>
+  <text x="380"   y="170" font-size="11" font-weight="600" fill="#b45309" text-anchor="middle">47%</text>
+  <text x="486.7" y="194" font-size="11" font-weight="600" fill="#b45309" text-anchor="end">35%</text>
+  <text x="593.3" y="208" font-size="11" font-weight="600" fill="#b45309" text-anchor="end">28%</text>
+  <text x="700"   y="200" font-size="11" font-weight="600" fill="#b45309" text-anchor="end">32%</text>
 
-  <!-- 分项 line: 06-21 45% / 06-22 70% / 06-23 55% / 06-24 53% -->
-  <polyline points="380,160 486.7,110 593.3,140 700,144" fill="none" stroke="#2563eb" stroke-width="2.5"/>
-  <circle cx="380" cy="160" r="4" fill="#2563eb"/>
-  <circle cx="486.7" cy="110" r="4" fill="#2563eb"/>
-  <circle cx="593.3" cy="140" r="4" fill="#2563eb"/>
-  <circle cx="700" cy="144" r="4" fill="#2563eb"/>
-  <text x="380" y="150" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">45%</text>
-  <text x="486.7" y="100" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">70%</text>
-  <text x="593.3" y="130" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="end">55%</text>
-  <text x="700" y="134" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="end">53%</text>
+  <!-- 分项 line: 06-21 45% / 06-22 70% / 06-23 55% / 06-24 53% / 06-25 60% -->
+  <polyline points="273.3,160 380,110 486.7,140 593.3,144 700,130" fill="none" stroke="#2563eb" stroke-width="2.5"/>
+  <circle cx="273.3" cy="160" r="4" fill="#2563eb"/>
+  <circle cx="380"   cy="110" r="4" fill="#2563eb"/>
+  <circle cx="486.7" cy="140" r="4" fill="#2563eb"/>
+  <circle cx="593.3" cy="144" r="4" fill="#2563eb"/>
+  <circle cx="700"   cy="130" r="4" fill="#2563eb"/>
+  <text x="273.3" y="150" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">45%</text>
+  <text x="380"   y="100" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="middle">70%</text>
+  <text x="486.7" y="130" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="end">55%</text>
+  <text x="593.3" y="134" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="end">53%</text>
+  <text x="700"   y="120" font-size="11" font-weight="600" fill="#1d4ed8" text-anchor="end">60%</text>
 </svg>
