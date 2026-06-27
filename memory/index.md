@@ -38,6 +38,7 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-26 | belgium / new_zealand | WC2026 GG (MD3) | settled | 比利时胜 82% | 1–5 (HT 0–1) | ⭐4/5 (1X2✓ 让胜次✓ 大球✓ 半全✓ / 比分✗) | 比利时运动战从0球→5球;"结构性哑火"标签不可跨对手推广;KDB 9.0分;Lukaku 64秒进球;比分封顶严重偏低(预测3-1→实5-1) | records/2026-06-26_new_zealand_vs_belgium.md |
 | 2026-06-27 | norway / france | WC2026 GI (MD3) | settled | 法国胜 65% / 平局 22% | 1–4 (HT 1–3) | 3/5 (1X2✓ 让负次✓ 半全次✓ / 比分✗ 大小✗) | Dembélé史上第二快帽子戏法(7'/20'/32');挪威轮换10人=最大信息失误→让平走盘变穿盘、totals从3球飙至5球;**MD3首发信息是F渠道最高优先级** | records/2026-06-27_norway_vs_france.md |
 | 2026-06-27 | senegal / iraq | WC2026 GI (MD3) | settled | 塞内加尔胜 58% / 平局 25% | 5–0 (HT 1–0) | 3/5 (1X2✓ 让胜主✓ 半全✓ / 比分✗ 大小✗) | 13'红牌颠覆比赛结构→穿盘;非洲史上最大胜;塞内加尔更衣室被晋级压力压制;Pape Gueye双响;伊拉克10人撑75分钟崩盘;红牌是比分/totals极端化因子 | records/2026-06-27_senegal_vs_iraq.md |
+| 2026-06-27 | croatia / ghana | WC2026 GL (MD3) | pending | 克罗地亚胜 52% / 平局 31% | — | — | L组生死战:加纳打平即出线/克罗地亚必须赢;加纳铁桶两场零封(0-0英格兰/1-0巴拿马);莫德里奇200场里程碑;爆冷~30%触发强制双选;让平走盘主选;1-0/0-0/1-1;1球/0球;平胜/平平 | records/2026-06-27_croatia_vs_ghana.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
