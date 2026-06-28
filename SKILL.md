@@ -93,7 +93,7 @@ Run the funnel in this order; each stage has a reference file.
    for prior records involving either team and for the exact matchup. **Lazy-settle** any
    matching `pending` record whose match has now finished: fetch the actual result, write the
    reflection (score + channel-attributed diagnosis), mark it settled. Load the settled
-   reflections **and `memory/calibration-summary.md`'s standing corrections** as **Channel H**
+   reflections **and `memory/corrections.md`'s standing corrections** as **Channel H**
    (see double-counting rules). → `references/memory-protocol.md`.
    **Also load `memory/standings-tracker.md`** for current group standings, qualified teams,
    and the confirmed/projected Round of 32 bracket — use this as authoritative tournament
@@ -108,8 +108,17 @@ Run the funnel in this order; each stage has a reference file.
 5. **精排 Fine-reason (the causal layer).** Mechanism chains, matchup/style analysis,
    counterfactuals (key player out → what shifts), and a **cohesion discount** for
    national teams. Memory enters here as a *prior correction*, not fresh evidence — load
-   `memory/calibration-summary.md`'s standing corrections as weak priors (capped). This is
-   where the prior gets adjusted. **Before locking picks, run a portfolio-level bias self-check:**
+   `memory/corrections.md`'s standing corrections as weak priors (capped). This is
+   where the prior gets adjusted.
+   
+   **强制流程——独立预测再比市场(2026-06-28 新增，P0):**
+   (a) 用 A-F 六路召回推导「模型概率」（暂不看 G/赔率）。
+   (b) 读入 G(赔率隐含概率)。
+   (c) 对比模型 vs 市场：差距 > 8% 才算独立信号。≤8% → 锚定市场概率，承认"无独立信号"。
+   (d) 明确写出："我与市场的差异在 __，原因 __，对应机制 __"。无差异时应写"与市场一致，无独立偏离"。
+   (e) 只有有独立证据时才偏离市场；偏离幅度须受 cap 约束(favorite ≤~65%，平局 24–30%)。
+   
+   **Before locking picks, run a portfolio-level bias self-check:**
    if you are making the *same directional* totals/handicap lean across several correlated
    matches (e.g. all "under + underdog"), stop and reconcile toward the market — it is likely one
    narrative copied, not independent evidence. **Also run an anti-overcorrection check:** before
@@ -121,6 +130,17 @@ Run the funnel in this order; each stage has a reference file.
    bivariate-Poisson score matrix), apply the bounded adjustments, run the
    **anti-overconfidence** and **market sanity-check** guardrails, then derive *every*
    bet type from the same posterior distribution. → `references/reasoning-and-synthesis.md`.
+   
+   **大小球定量化(2026-06-28 新增, P1-a 完整落地):** 必须在合成阶段执行
+   `E[goals] = (xG_A_recent + xG_B_recent) × 场景系数` 作为大小球的定量脊柱。
+   场景系数表、判别流程、强制规则(E[goals]<1.5 需双理由等)见
+   `references/reasoning-and-synthesis.md` 重排 §0。xG 缺失时用 Elo 推算但标注降级。
+   
+   **均势局检测(2026-06-28 新增, P1-b 完整落地):** 市场 H/A 差距 < 20% 或 ELO 差 < 100 或双方均无精英终结者
+   → 启动均势局规则(详见 `references/reasoning-and-synthesis.md` 精排节):
+   1X2 不出单选(必须双选/三选,置信上限=50); 让球重心→走盘/受让;
+   比分覆盖双向三格(1-0/1-1/2-1 不按强弱聚集); 大小球仅由 xG 公式驱动;
+   半全场平平最强先验(~40–50%); 输出必须标注"**[均势局]**"。
 7. **输出 Output.** Write the Chinese report in the exact required format. →
    `references/output-format.md`.
 8. **校准 + 记忆写回 Calibrate & write-back.** Score per `calibration-log.md`, and write the
@@ -131,10 +151,12 @@ Run the funnel in this order; each stage has a reference file.
 > 结算 / "看真实数据对比" / "我预测得怎么样" for matches that have now been played, run
 > **`references/reflection-protocol.md`** — a fixed routine: (a) fetch real result+HT+lineups+
 > scorers, (b) settle each record with a per-market scorecard (Brier/log-loss) + channel
-> diagnosis, (c) roll up a cross-match summary in `memory/calibration-summary.md`, (d) ask
-> **Why** (5-whys to a fixable process flaw, plus what NOT to overcorrect), (e) emit capped
-> *standing corrections* that step 2/5 above will load next time. **Persistence is mandatory**,
-> and write to the durable skill dir (beware ephemeral same-name copies — see the protocol).
+> diagnosis, (c) roll up a cross-match summary in `memory/calibration-archive.md`, (d) update
+> `memory/corrections.md`'s standing corrections + hit rates, (e) ask
+> **Why** (5-whys to a fixable process flaw, plus what NOT to overcorrect), (f) emit capped
+> *standing corrections* into `memory/corrections.md` that step 2/5 above will load next time.
+> **Persistence is mandatory**, and write to the durable skill dir (beware ephemeral same-name
+> copies — see the protocol).
 
 > **Note on "recall" here:** it is a *metaphor* for multi-source evidence gathering,
 > NOT vector/ANN search. Do not reach for FAISS or an embedding index — the work is

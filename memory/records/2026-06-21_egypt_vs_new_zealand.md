@@ -36,4 +36,4 @@ status: settled
 ## Transfer notes (what carries forward, with caveats)
 - 埃及: 萨拉赫是决定性质量点,能在均势局后段拉开;别低估其净胜球。
 - 新西兰: 非鱼腩,定位球(头槌)与双枪给真实威胁,能先进球;但挡不住更高质量的持续施压。
-- 此对位 & G组: 与 [[2026-06-21_belgium_vs_iran]] 同组;本轮我对 G/H 两组**全部默认低分+受让方**,结果三场大球——见跨场总结 [[calibration-summary]]。
+- 此对位 & G组: 与 [[2026-06-21_belgium_vs_iran]] 同组;本轮我对 G/H 两组**全部默认低分+受让方**,结果三场大球——见跨场总结 [[calibration-archive]]。

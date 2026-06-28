@@ -46,18 +46,18 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-27 | argentina / jordan | WC2026 GJ (MD3) | settled | 阿根廷胜 72% | 1-3(HT 0-2) | 1X2✓ 让球✓(走盘) 半全✓(负负) / 比分✗ 大小✗ | 轮换阵容进攻效率高于预期;梅西替补后任意球锁定;总进球4球偏高 | records/2026-06-27_argentina_vs_jordan.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
-> **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。
+> **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-archive.md](calibration-archive.md)。
 > 系统性偏差:**四场全部默认"小球 + 受让方/弱favorite净胜球"→ 大小球 1/4、比分 0/4、让球 2/4**。根因=把单一"强权打不穿摆大巴→低分"叙事套到每场 + 过度外推 MD1 全闷平的小样本。
 
-> **跨场总结(MD2, 2026-06-22,4 场):** 见 [calibration-summary.md](calibration-summary.md) Batch 2。
+> **跨场总结(MD2, 2026-06-22,4 场):** 见 [calibration-archive.md](calibration-archive.md) Batch 2。
 > **大幅好转:1X2 4/4、比分 3/4(上批次 0/4!)、让球 2/4+2push、大小 2/4、半全 2/4。**
 
-> **跨场总结(MD2, 2026-06-23,4 场已结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 3。
+> **跨场总结(MD2, 2026-06-23,4 场已结算):** 见 [calibration-archive.md](calibration-archive.md) Batch 3。
 
-> **跨场总结(MD3, 2026-06-24,6 场已全部结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 4。
+> **跨场总结(MD3, 2026-06-24,6 场已全部结算):** 见 [calibration-archive.md](calibration-archive.md) Batch 4。
 > **1X2 5/6**(仅South Korea 0-1爆冷错)、**让球 3胜+3 push**、**大小 2/6**、**比分 3/6**、**半全 5/6**(最佳项!)。**最佳卡=瑞士 5/5满堂红;最差卡=南非-韩国。**
 
-> **⭐ 跨场总结(MD3, 2026-06-25,6 场已全部结算):** 见 [calibration-summary.md](calibration-summary.md) Batch 5。
+> **⭐ 跨场总结(MD3, 2026-06-25,6 场已全部结算):** 见 [calibration-archive.md](calibration-archive.md) Batch 5。
 > **1X2 5/6**(仅Ecuador 2-1 Germany错!)、**让球 6/6 全中**(含4个push!)、**大小 3/6**(CIV✅ NED✅ JPN✅ / ECU✗ PAR✗ TUR✗)、**比分 2/6**(CIV 0-2精确! JPN 1-1次桶! / 其余4场错)、**半全 3/6**(NED✅ PAR✅ / JPN✗ CIV✗ ECU✗ TUR✗)。**本批最佳卡=库拉索 0-2 科特迪瓦(4/5,比分精确命中!)+ 日本 1-1 瑞典(4/5,全次选对冲命中!)+ 突尼斯 1-3 荷兰(4/5)。最差卡=厄瓜多尔 2-1 德国(1/5,must-win vs already-qualified反转)。**
 > **⭐ 强制双选对冲规则在日-瑞之战大放异彩——无对冲即0/5惨剧。让球push认知跨7批13+场验证,已升为最强先验。三种MD3亚型被识别:解放效应(Haiti 2球, Ecuador 2球)、无利害表演赛(Turkey 2-2 USA, 4球)、绞杀死锁(Paraguay 0-0 Australia)。**
 
