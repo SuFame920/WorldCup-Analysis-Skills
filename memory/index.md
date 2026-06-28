@@ -38,12 +38,12 @@ Status: `pending` = predicted, result not yet recorded · `settled` = result + r
 | 2026-06-26 | belgium / new_zealand | WC2026 GG (MD3) | settled | 比利时胜 82% | 1–5 (HT 0–1) | ⭐4/5 (1X2✓ 让胜次✓ 大球✓ 半全✓ / 比分✗) | 比利时运动战从0球→5球;"结构性哑火"标签不可跨对手推广;KDB 9.0分;Lukaku 64秒进球;比分封顶严重偏低(预测3-1→实5-1) | records/2026-06-26_new_zealand_vs_belgium.md |
 | 2026-06-27 | norway / france | WC2026 GI (MD3) | settled | 法国胜 65% / 平局 22% | 1–4 (HT 1–3) | 3/5 (1X2✓ 让负次✓ 半全次✓ / 比分✗ 大小✗) | Dembélé史上第二快帽子戏法(7'/20'/32');挪威轮换10人=最大信息失误→让平走盘变穿盘、totals从3球飙至5球;**MD3首发信息是F渠道最高优先级** | records/2026-06-27_norway_vs_france.md |
 | 2026-06-27 | senegal / iraq | WC2026 GI (MD3) | settled | 塞内加尔胜 58% / 平局 25% | 5–0 (HT 1–0) | 3/5 (1X2✓ 让胜主✓ 半全✓ / 比分✗ 大小✗) | 13'红牌颠覆比赛结构→穿盘;非洲史上最大胜;塞内加尔更衣室被晋级压力压制;Pape Gueye双响;伊拉克10人撑75分钟崩盘;红牌是比分/totals极端化因子 | records/2026-06-27_senegal_vs_iraq.md |
-| 2026-06-27 | croatia / ghana | WC2026 GL (MD3) | pending | 克罗地亚胜 52% / 平局 31% | — | — | L组生死战:加纳打平即出线/克罗地亚必须赢;加纳铁桶两场零封(0-0英格兰/1-0巴拿马);莫德里奇200场里程碑;爆冷~30%触发强制双选;让平走盘主选;1-0/0-0/1-1;1球/0球;平胜/平平 | records/2026-06-27_croatia_vs_ghana.md |
-| 2026-06-27 | colombia / portugal | WC2026 GK (MD3) | pending | 双选(葡萄胜48/平30) | — | — | K组头名争夺:哥伦比亚已出线+打平即头名;葡萄牙必须赢;盘口葡让1球→让胜+让平;1-1/1-0葡/2-0葡;2球/1球;平负/平平 | records/2026-06-27_colombia_vs_portugal.md |
-| 2026-06-27 | dr_congo / uzbekistan | WC2026 GK (MD3) | pending | 刚果DR胜 54% | — | — | MD3必赢vs已淘汰:刚果变阵4-3-3攻最弱防线;让负(乌兹+1)为主;2-0/1-0;2球/1球;胜胜;爆冷~22% | records/2026-06-27_dr_congo_vs_uzbekistan.md |
-| 2026-06-27 | england / panama | WC2026 GL (MD3) | pending | 英格兰胜 78% | — | — | L组强弱悬殊:英格兰需赢保头名;巴拿马0分0球已淘汰;体彩英让2球→让负+让平;0-2/0-3/0-1;2球/3球;平负/负负;爆冷~12% | records/2026-06-27_england_vs_panama.md |
-| 2026-06-27 | algeria / austria | WC2026 GJ (MD3) | pending | 平局 42% / 奥地利胜 32%(双选) | — | — | J组平局双方满意:奥地利打平即第二;阿尔及利亚4分稳进;体彩阿尔及利亚+1→让胜+让平;0-0/1-1/0-1;0球/1球;平平;爆冷~20% | records/2026-06-27_algeria_vs_austria.md |
-| 2026-06-27 | argentina / jordan | WC2026 GJ (MD3) | pending | 阿根廷胜 72% | — | — | J组死签:阿根廷锁头名轮换9-10人+梅西替补;B队全五大联赛;约旦两场都进球;体彩阿让2球→让胜(约旦+2)+让平;0-2/0-3/1-2;2球/3球;平负/负负;爆冷~14% | records/2026-06-27_argentina_vs_jordan.md |
+| 2026-06-27 | croatia / ghana | WC2026 GL (MD3) | settled | 克罗地亚胜 52% / 平局 31% | 2-1(HT 1-0) | 1X2✓ 让球✓(走盘) / 比分✗ 大小✗ 半全✗ | 早进球(Sučić 31')打破绞杀死锁→加纳被迫出来→3球。绞杀稳定性依赖均势无进球半场 | records/2026-06-27_croatia_vs_ghana.md |
+| 2026-06-27 | colombia / portugal | WC2026 GK (MD3) | settled | 双选(葡萄胜48/平30) | 0-0 | 1X2✓(次/平) 让球✓ 半全✓(平平) / 比分✗(未含0-0!) 大小✗ | 0-0成立却漏入比分桶——校准#9(0-0子型)执行失误;平局次选触发时必须强制0-0入桶 | records/2026-06-27_colombia_vs_portugal.md |
+| 2026-06-27 | dr_congo / uzbekistan | WC2026 GK (MD3) | settled | 刚果DR胜 54% | 3-1(HT 0-1!) | 1X2✓ / 让球✗ 比分✗ 大小✗ 半全✗ | 刚果HT落后0-1→必须追分→激活进攻→下半场三球逆转。让球方向完全押错(押让负实际穿盘) | records/2026-06-27_dr_congo_vs_uzbekistan.md |
+| 2026-06-27 | england / panama | WC2026 GL (MD3) | settled | 英格兰胜 78% | 0-2(HT 0-0) | ⭐1X2✓ 让球✓(走盘) 比分✓(0-2精确!) 大小✓(2球) 半全✓(平负) 5/10满堂红 | 教科书级精英vs铁桶弱攻;比分精确+走盘+大小球+半全全中;本批最佳卡 | records/2026-06-27_england_vs_panama.md |
+| 2026-06-27 | algeria / austria | WC2026 GJ (MD3) | settled | 平局 42% / 奥地利胜 32%(双选) | 3-3(HT 1-1) | 1X2✓(平) 让球✓(+1胜) 半全✓(平平) / 比分✗ 大小✗(押0-1球实际6球!) | "双方打平即可"≠低比分;进攻能力强+防守软→3-3高分混战。判别键是防守能力非进攻动机 | records/2026-06-27_algeria_vs_austria.md |
+| 2026-06-27 | argentina / jordan | WC2026 GJ (MD3) | settled | 阿根廷胜 72% | 1-3(HT 0-2) | 1X2✓ 让球✓(走盘) 半全✓(负负) / 比分✗ 大小✗ | 轮换阵容进攻效率高于预期;梅西替补后任意球锁定;总进球4球偏高 | records/2026-06-27_argentina_vs_jordan.md |
 |            |                      |                 |         |                |                 |                                                    |                                                         |                                             |
 
 > **跨场总结(MD2, 2026-06-21,4 场):** 见 [calibration-summary.md](calibration-summary.md)。

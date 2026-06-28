@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
-  <rect x="2" y="2" width="816" height="336" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
-  <text x="24" y="28" font-size="15" font-weight="700" fill="#1f2328">近 7 日命中率趋势（30场已结算 · 逐档命中率 · 6条曲线）</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 930 340" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="2" y="2" width="926" height="336" rx="12" fill="#ffffff" stroke="#e5e7eb"/>
+  <text x="24" y="28" font-size="15" font-weight="700" fill="#1f2328">近 7 日命中率趋势（36场已结算 · 逐档命中率 · 6条曲线）</text>
 
   <!-- legend (positioned below title to avoid overlap) -->
   <rect x="320" y="40" width="12" height="12" rx="2" fill="#2563eb"/>
@@ -18,11 +18,11 @@
 
   <!-- y gridlines + labels: 0%=300, 25%=238, 50%=175, 75%=113, 100%=50 -->
   <g stroke="#eef0f2" stroke-width="1">
-    <line x1="58" y1="50"  x2="762" y2="50"/>
-    <line x1="58" y1="113" x2="762" y2="113"/>
-    <line x1="58" y1="175" x2="762" y2="175"/>
-    <line x1="58" y1="238" x2="762" y2="238"/>
-    <line x1="58" y1="300" x2="762" y2="300"/>
+    <line x1="58" y1="50"  x2="872" y2="50"/>
+    <line x1="58" y1="113" x2="872" y2="113"/>
+    <line x1="58" y1="175" x2="872" y2="175"/>
+    <line x1="58" y1="238" x2="872" y2="238"/>
+    <line x1="58" y1="300" x2="872" y2="300"/>
   </g>
   <g font-size="11" fill="#9ca3af" text-anchor="end">
     <text x="50" y="54">100%</text>
@@ -40,49 +40,62 @@
     <text x="430" y="320">06-24</text>
     <text x="540" y="320">06-25</text>
     <text x="650" y="320">06-26</text>
+    <text x="760" y="320">06-28</text>
   </g>
 
-  <!-- ===== 整体 逐档 (blue #2563eb): 24%→45%→35%→27%→30%→34% ===== -->
-  <polyline points="100,240 210,188 320,212 430,232 540,225 650,215" fill="none" stroke="#2563eb" stroke-width="2.8"/>
+  <!-- ===== 整体 逐档 (blue #2563eb): 24%→45%→35%→27%→30%→34%→28% ===== -->
+  <polyline points="100,240 210,188 320,212 430,232 540,225 650,215 760,230" fill="none" stroke="#2563eb" stroke-width="2.8"/>
   <circle cx="100" cy="240" r="4" fill="#2563eb"/><circle cx="210" cy="188" r="4" fill="#2563eb"/>
   <circle cx="320" cy="212" r="4" fill="#2563eb"/><circle cx="430" cy="232" r="4" fill="#2563eb"/>
   <circle cx="540" cy="225" r="4" fill="#2563eb"/><circle cx="650" cy="215" r="4" fill="#2563eb"/>
+  <circle cx="760" cy="230" r="4" fill="#2563eb"/>
   <text x="100" y="252" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">24%</text>
   <text x="210" y="200" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">45%</text>
   <text x="320" y="224" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">35%</text>
   <text x="430" y="244" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">27%</text>
   <text x="540" y="237" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">30%</text>
   <text x="650" y="227" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">34%</text>
+  <text x="760" y="222" font-size="9" font-weight="600" fill="#1d4ed8" text-anchor="middle">28%</text>
 
-  <!-- ===== 胜平负 (red #dc2626): 71%→80%→75%→56%→45%→55% ===== -->
-  <polyline points="100,122 210,100 320,112 430,160 540,188 650,162" fill="none" stroke="#dc2626" stroke-width="2"/>
+  <!-- ===== 胜平负 (red #dc2626): 71%→80%→75%→56%→45%→55%→67% ===== -->
+  <polyline points="100,122 210,100 320,112 430,160 540,188 650,162 760,133" fill="none" stroke="#dc2626" stroke-width="2"/>
   <circle cx="100" cy="122" r="3.5" fill="#dc2626"/><circle cx="210" cy="100" r="3.5" fill="#dc2626"/>
   <circle cx="320" cy="112" r="3.5" fill="#dc2626"/><circle cx="430" cy="160" r="3.5" fill="#dc2626"/>
   <circle cx="540" cy="188" r="3.5" fill="#dc2626"/><circle cx="650" cy="162" r="3.5" fill="#dc2626"/>
+  <circle cx="760" cy="133" r="3.5" fill="#dc2626"/>
+  <text x="760" y="125" font-size="9" font-weight="600" fill="#dc2626" text-anchor="middle">67%</text>
 
-  <!-- ===== 让球 (green #16a34a): 50%→50%→50%→33%→55%→50% ===== -->
-  <polyline points="100,175 210,175 320,175 430,218 540,162 650,175" fill="none" stroke="#16a34a" stroke-width="2"/>
+  <!-- ===== 让球 (green #16a34a): 50%→50%→50%→33%→55%→50%→42% ===== -->
+  <polyline points="100,175 210,175 320,175 430,218 540,162 650,175 760,195" fill="none" stroke="#16a34a" stroke-width="2"/>
   <circle cx="100" cy="175" r="3.5" fill="#16a34a"/><circle cx="210" cy="175" r="3.5" fill="#16a34a"/>
   <circle cx="320" cy="175" r="3.5" fill="#16a34a"/><circle cx="430" cy="218" r="3.5" fill="#16a34a"/>
   <circle cx="540" cy="162" r="3.5" fill="#16a34a"/><circle cx="650" cy="175" r="3.5" fill="#16a34a"/>
+  <circle cx="760" cy="195" r="3.5" fill="#16a34a"/>
+  <text x="760" y="210" font-size="9" font-weight="600" fill="#16a34a" text-anchor="middle">42%</text>
 
-  <!-- ===== 比分 (amber #f59e0b): 0%→30%→20%→6%→13%→12% ===== -->
-  <polyline points="100,300 210,225 320,250 430,285 540,268 650,270" fill="none" stroke="#f59e0b" stroke-width="2"/>
+  <!-- ===== 比分 (amber #f59e0b): 0%→30%→20%→6%→13%→12%→6% ===== -->
+  <polyline points="100,300 210,225 320,250 430,285 540,268 650,270 760,285" fill="none" stroke="#f59e0b" stroke-width="2"/>
   <circle cx="100" cy="300" r="3.5" fill="#f59e0b"/><circle cx="210" cy="225" r="3.5" fill="#f59e0b"/>
   <circle cx="320" cy="250" r="3.5" fill="#f59e0b"/><circle cx="430" cy="285" r="3.5" fill="#f59e0b"/>
   <circle cx="540" cy="268" r="3.5" fill="#f59e0b"/><circle cx="650" cy="270" r="3.5" fill="#f59e0b"/>
+  <circle cx="760" cy="285" r="3.5" fill="#f59e0b"/>
+  <text x="760" y="278" font-size="9" font-weight="600" fill="#d97706" text-anchor="middle">6%</text>
 
-  <!-- ===== 大小球 (purple #8b5cf6): 13%→38%→25%→17%→25%→17% ===== -->
-  <polyline points="100,268 210,205 320,238 430,258 540,238 650,258" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  <!-- ===== 大小球 (purple #8b5cf6): 13%→38%→25%→17%→25%→17%→8% ===== -->
+  <polyline points="100,268 210,205 320,238 430,258 540,238 650,258 760,280" fill="none" stroke="#8b5cf6" stroke-width="2"/>
   <circle cx="100" cy="268" r="3.5" fill="#8b5cf6"/><circle cx="210" cy="205" r="3.5" fill="#8b5cf6"/>
   <circle cx="320" cy="238" r="3.5" fill="#8b5cf6"/><circle cx="430" cy="258" r="3.5" fill="#8b5cf6"/>
   <circle cx="540" cy="238" r="3.5" fill="#8b5cf6"/><circle cx="650" cy="258" r="3.5" fill="#8b5cf6"/>
+  <circle cx="760" cy="280" r="3.5" fill="#8b5cf6"/>
+  <text x="760" y="295" font-size="9" font-weight="600" fill="#7c3aed" text-anchor="middle">8%</text>
 
-  <!-- ===== 半全场 (cyan #06b6d4): 20%→50%→40%→36%→18%→50% ===== -->
-  <polyline points="100,250 210,175 320,200 430,210 540,255 650,175" fill="none" stroke="#06b6d4" stroke-width="2"/>
+  <!-- ===== 半全场 (cyan #06b6d4): 20%→50%→40%→36%→18%→50%→40% ===== -->
+  <polyline points="100,250 210,175 320,200 430,210 540,255 650,175 760,200" fill="none" stroke="#06b6d4" stroke-width="2"/>
   <circle cx="100" cy="250" r="3.5" fill="#06b6d4"/><circle cx="210" cy="175" r="3.5" fill="#06b6d4"/>
   <circle cx="320" cy="200" r="3.5" fill="#06b6d4"/><circle cx="430" cy="210" r="3.5" fill="#06b6d4"/>
   <circle cx="540" cy="255" r="3.5" fill="#06b6d4"/><circle cx="650" cy="175" r="3.5" fill="#06b6d4"/>
+  <circle cx="760" cy="200" r="3.5" fill="#06b6d4"/>
+  <text x="760" y="193" font-size="9" font-weight="600" fill="#0891b2" text-anchor="middle">40%</text>
 
   <!-- batch labels -->
   <text x="100" y="334" font-size="9" fill="#9ca3af" text-anchor="middle">v1.0 (4场)</text>
@@ -91,4 +104,5 @@
   <text x="430" y="334" font-size="9" fill="#9ca3af" text-anchor="middle">v1.3 (6场)</text>
   <text x="540" y="334" font-size="9" fill="#9ca3af" text-anchor="middle">v1.5 (6场)</text>
   <text x="650" y="334" font-size="9" fill="#9ca3af" text-anchor="middle">v1.6 (6场)</text>
+  <text x="760" y="334" font-size="9" fill="#6b7280" font-weight="600" text-anchor="middle">v1.7 (6场)</text>
 </svg>
